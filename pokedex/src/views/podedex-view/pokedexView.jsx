@@ -3,7 +3,6 @@ import { PokemonContext } from "../../shared/Provider/PokemonProvider";
 import { Pokemon } from "../../components/pokemon/Pokemon";
 
 export const Pokedex = () => {
-
   const { pokemons } =
     useContext(PokemonContext);
 

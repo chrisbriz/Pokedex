@@ -13,6 +13,9 @@ export const NavigationDesktop = () => {
                 <li>
                     <button onClick={() => history.push(RoutingPath.pokedex)}>Pokedex</button>
                 </li>
+                <li>
+                    <button onClick={() => history.push(RoutingPath.pokemon)}>Pokemon</button>
+                </li>
             </ul>
         </nav>
     )
